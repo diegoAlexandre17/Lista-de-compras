@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bed91dab.css",
+    "main.js": "/static/js/main.63445025.js",
+    "static/media/wepik-2022123-221119.png": "/static/media/wepik-2022123-221119.4a7d6782e969f5faacb9.png",
+    "index.html": "/index.html",
+    "main.bed91dab.css.map": "/static/css/main.bed91dab.css.map",
+    "main.63445025.js.map": "/static/js/main.63445025.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bed91dab.css",
+    "static/js/main.63445025.js"
+  ]
+}
