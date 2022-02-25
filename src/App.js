@@ -58,16 +58,18 @@ function App() {
 
   return (
     <div className="App row">
-      <h1 className="text-center my-4">Lista de compras App</h1>
+      <h1 className="h2-color text-center my-2 display-5">
+        Lista de compras App
+      </h1>
       <hr />
       <div className="col-md-12 col-lg-6">
         <Form setItems={setItems} items={items} />
       </div>
       <div className="col-md-12 col-lg-6">
         {items.length == 0 ? (
-          <h2 className="h2-color text-center display-5">
+          <h3 className="h2-color text-center display-5">
             Empieza a registrar los productos de la lista!
-          </h2>
+          </h3>
         ) : (
           items.map((item) => (
             <Item

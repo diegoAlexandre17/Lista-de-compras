@@ -50,7 +50,7 @@ const Form = ({ setItems, items }) => {
         placeholder="Ingresa el precio"
       />
 
-      <button className="btn btn-primary w-100">Agregar!</button>
+      <button className="mb-5 btn btn-primary w-100">Agregar!</button>
     </form>
   );
 };

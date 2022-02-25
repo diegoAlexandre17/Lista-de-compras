@@ -1,5 +1,6 @@
 body {
-  margin: 50px;
+  margin: 40px auto;
+  padding: 0 2rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -18,16 +19,23 @@ code {
 }
 
 .item {
+  padding: 1rem 0;
+  color: black;
+  margin-bottom: 2rem;
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.7);
   font-weight: bold;
   text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .total {
-  height: 5rem;
-  text-align: center;
+  min-height: 5rem;
   padding: 1rem;
+  text-align: center;
   line-height: 2.5rem;
   font-weight: bold;
   border-radius: 20px;
@@ -37,4 +45,19 @@ code {
 .h2-color {
   font-weight: bold;
   color: rgb(255, 255, 255);
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    max-width: 1200px;
+    margin: 40 autopx;
+  }
+
+  .item {
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 0 1rem;
+  }
 }

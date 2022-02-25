@@ -3,18 +3,18 @@ import useCounter from "../hooks/useCounter";
 
 const Item = ({ item, aumentarCantidad, disminuirCantidad, deleteItem }) => {
   return (
-    <div className="item text-dark my-4 border  d-flex px-3 py-2 justify-content-around text-center align-middle">
-      <p className="mx-2 py-4">{item.title}</p>
-      <p className="mx-2 py-4">Precio por unidad : ${item.price}</p>
+    <div className="item">
+      <p className="mx-2">{item.title}</p>
+      <p className="mx-2">Precio por unidad : ${item.price}</p>
 
-      <div className="mx-4 py-4">
+      <div className="d-flex">
         <button
           className="btn btn-primary"
           onClick={() => aumentarCantidad(item)}
         >
           +
         </button>
-        <span> {item.cantidad} </span>
+        <p className="px-2"> {item.cantidad} </p>
         <button
           className="btn btn-primary"
           onClick={() => disminuirCantidad(item)}
@@ -22,8 +22,8 @@ const Item = ({ item, aumentarCantidad, disminuirCantidad, deleteItem }) => {
           -
         </button>
       </div>
-      <p className=" py-4">Total : ${item.total}</p>
-      <div className="mx-4 py-4">
+      <p className="">Total : ${item.total}</p>
+      <div className="">
         <button className="btn btn-primary" onClick={() => deleteItem(item)}>
           Delete
         </button>
