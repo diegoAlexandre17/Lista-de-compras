@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.17840e5c.css",
+    "main.css": "/static/css/main.c2e5994b.css",
     "main.js": "/static/js/main.6651fdf6.js",
     "static/media/wepik-2022123-221119.png": "/static/media/wepik-2022123-221119.4a7d6782e969f5faacb9.png",
     "index.html": "/index.html",
-    "main.17840e5c.css.map": "/static/css/main.17840e5c.css.map",
+    "main.c2e5994b.css.map": "/static/css/main.c2e5994b.css.map",
     "main.6651fdf6.js.map": "/static/js/main.6651fdf6.js.map"
   },
   "entrypoints": [
-    "static/css/main.17840e5c.css",
+    "static/css/main.c2e5994b.css",
     "static/js/main.6651fdf6.js"
   ]
 }
