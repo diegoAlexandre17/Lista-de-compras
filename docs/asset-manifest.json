@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.bed91dab.css",
-    "main.js": "/static/js/main.63445025.js",
+    "main.css": "/static/css/main.17840e5c.css",
+    "main.js": "/static/js/main.6651fdf6.js",
     "static/media/wepik-2022123-221119.png": "/static/media/wepik-2022123-221119.4a7d6782e969f5faacb9.png",
     "index.html": "/index.html",
-    "main.bed91dab.css.map": "/static/css/main.bed91dab.css.map",
-    "main.63445025.js.map": "/static/js/main.63445025.js.map"
+    "main.17840e5c.css.map": "/static/css/main.17840e5c.css.map",
+    "main.6651fdf6.js.map": "/static/js/main.6651fdf6.js.map"
   },
   "entrypoints": [
-    "static/css/main.bed91dab.css",
-    "static/js/main.63445025.js"
+    "static/css/main.17840e5c.css",
+    "static/js/main.6651fdf6.js"
   ]
 }
