@@ -50,7 +50,7 @@ code {
 @media screen and (min-width: 1200px) {
   body {
     max-width: 1200px;
-    margin: 40 autopx;
+    margin: 40px auto;
   }
 
   .item {
