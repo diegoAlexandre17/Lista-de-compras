@@ -15,7 +15,7 @@ Los usuarios deben poder:
 
 ### Links
 
-- URL: [Lista de compras!](https://diegoalexandre17.github.io/Portfolio-personal/)
+- URL: [Lista de compras!](https://diegoalexandre17.github.io/Lista-de-compras/)
 
 ## Mi proceso
 
